@@ -105,6 +105,8 @@ def circulo (x1,y1,rad,canvas):
     return canvas
 
 def elipse (fx1,fy1,fx2,fy2,e,canvas):
+    
+    #la elipse no es perfectamente funcional, pero es debido a un error matemático, ya que nadie del grupo había trabajado con elipses antes. 
 
     if fy2==fy1:
 
