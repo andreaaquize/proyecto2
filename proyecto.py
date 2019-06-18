@@ -70,6 +70,8 @@ def rectangulo (x1,y1,b,h,canvas):
     linea(x1,y1+h,x1+b,y1+h,canvas)
     linea(x1,y1,x1,y1+h,canvas)
     linea(x1+b,y1,x1+b,y1+h,canvas)
+    
+    return canvas
 
 
 
@@ -80,6 +82,8 @@ def triángulo (x1,y1,b,h,canvas):
     a=redondeo(x1+b/2)
     linea(x1,y1,a,y1+h,canvas)
     linea(a,y1+h,x1+b,y1,canvas)
+    
+    return canvas
 
 
 def circulo (x1,y1,rad,canvas):
