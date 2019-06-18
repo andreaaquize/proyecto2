@@ -14,9 +14,11 @@ def redondeo (boaty):
 
 
 def llenado (canvas):
+    
+    canvas=[]
 
-   llenar =["."]
-   borde=["."]
+    llenar =["."]
+    borde=["."]
 
    for i in range (80):
         if i != 79:
