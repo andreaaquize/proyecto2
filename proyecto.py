@@ -142,9 +142,9 @@ def elipse (fx1,fy1,fx2,fy2,e,canvas):
             canvas[42-y2].pop(k)
             canvas[42-y2].insert(k,"*")
             canvas[42-y1].insert(k,"*")
-
-
-
+            
+      
+     return canvas
 
 
 
