@@ -79,9 +79,9 @@ if inst==4:
    b=int(input("Ingrese su base: "))
    h = int(input("Ingrese su altura: "))
 
-canvas1 = llenado(canvas1)
-canvas1 = triángulo(x1,y1,b,h,canvas1)
-printingCANVAS(canvas1)
+   canvas1 = llenado(canvas1)
+   canvas1 = triángulo(x1,y1,b,h,canvas1)
+   printingCANVAS(canvas1)
 
 
 
